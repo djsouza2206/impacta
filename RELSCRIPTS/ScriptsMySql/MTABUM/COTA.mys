@@ -1,0 +1,11 @@
+CREATE TABLE COTA(
+        NROCOTA         INTEGER         NOT NULL,		0001
+        CONTEMPLADA     VARCHAR(20)     DEFAULT ' ',		SORTEIO / LANCE
+        TORRE           VARCHAR(03)     DEFAULT ' ',		"A","B","C","D","E","F","G","H"
+        DATA            DATE,					30/09/2020
+        STATUS          VARCHAR(01)     DEFAULT ' '		''
+)TYPE=MYISAM;
+
+
+
+
